@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-color: black;
 }
 
 #container {
@@ -29,17 +29,16 @@ body {
 
 
 header {
-    width: 910px;	/* reduced by 20px to accommodate shadow */
+    width: 920px;	/* reduced by 20px to accommodate shadow */
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
     border: 1px solid #888888;
-    box-shadow: 15px 15px 5px 0 #888888;
     border-radius: 25px;  	
 }
 
 nav {
-    width: 200px;
+    width: 180px;
     margin: 0 5px 0 5px; 
     padding: 25px 10px 0 10px;
     float: left;
@@ -53,13 +52,13 @@ nav ul {
 
 nav ul li a {
     padding: 5px;
-    color: gray;
+    color: black;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: gray;
+    background: orange;
     border-radius: 10px;
     color: white;
 }
@@ -71,7 +70,7 @@ nav ul li a:hover {
     color: black;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+   
 }
 
 #main p {
