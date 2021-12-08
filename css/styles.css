@@ -143,3 +143,7 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+.clubs {
+	padding-left: 85px;
+}
