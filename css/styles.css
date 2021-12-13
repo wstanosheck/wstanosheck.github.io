@@ -147,3 +147,13 @@ footer a:hover {
 .clubs {
 	padding-left: 85px;
 }
+.several {
+	padding-left: 50 px;
+}
+
+
+table, th, td {
+	border: 5px solid black;
+	border-collapse: collapse;
+	padding-top: 10px;
+}
